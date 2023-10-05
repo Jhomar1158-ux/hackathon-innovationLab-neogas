@@ -2,19 +2,16 @@ import React, { useState } from "react";
 import { View, TextInput, Button, StyleSheet } from "react-native";
 
 export default function AmountInput({ onAmountInput }) {
-  const [amount, setAmount] = useState(""); // Estado para el monto ingresado
+  const [amount, setAmount] = useState(""); 
 
-  // Función para manejar el cambio en el input de monto
   const handleAmountChange = (text) => {
     setAmount(text);
   };
 
-  // Función para manejar el botón "Siguiente"
   const handleNextButton = () => {
-    // Validar el monto ingresado si es necesario
     const parsedAmount = parseFloat(amount);
     if (!isNaN(parsedAmount)) {
-      onAmountInput(parsedAmount); // Pasar el monto ingresado al componente principal
+      onAmountInput(parsedAmount); 
     } else {
       alert("Por favor, ingrese un monto válido en gramos.");
     }

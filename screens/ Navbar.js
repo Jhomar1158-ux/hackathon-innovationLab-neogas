@@ -5,16 +5,12 @@ const Navbar = () => {
     return (
         <View style={styles.container}>
             <TouchableOpacity style={styles.iconContainer}>
-                {/* Icono de hamburguesa */}
-                {/* Puedes utilizar un icono personalizado o una imagen */}
                 <Image source={require('../assets/hamburgerIcon.png')} style={styles.optionsPic} />
             </TouchableOpacity>
             <View style={styles.logoContainer}>
-                {/* Logo */}
                 <Image source={require('../assets/LogoNeoGas.png')} style={styles.logo} />
             </View>
             <TouchableOpacity style={styles.profileContainer}>
-                {/* Foto de perfil */}
                 <Image source={require('../assets/profilePhoto.jpg')} style={styles.profilePic} />
             </TouchableOpacity>
         </View>
@@ -29,7 +25,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         paddingVertical: 10,
         paddingHorizontal: 15,
-        // maxHeight:120,
     },
     iconContainer: {
         flex: 1,

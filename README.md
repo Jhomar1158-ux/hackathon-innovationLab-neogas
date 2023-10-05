@@ -1,23 +1,9 @@
-# SkyCast | React Native, ESP32 & Firebase
+# Neogas | React Native, ESP32 & Firebase
 
-## This app will make use of the power of modern JavaScript, mobile development with React Native, and hardware interfacing to provide real-time weather updates. Whether you're an experienced developer or a newbie, this project will have something for you.
+#### Ecosistema de hardware y software que digitaliza a envasadoras de GLP permitiéndoles brindar un mejor servicio.
 
-# Youtube Tutorial: https://youtu.be/gXVkjxdkrlI
+[![Funcionamiento neogas](https://i.postimg.cc/Y9cr6XY5/image.png)](https://postimg.cc/f3KQZfHC)
 
+## Aplicativo móvil:
 
-![esp-32](https://github.com/galbraithmedia1/SkyCast/assets/59584919/61c28cd6-8aa8-4690-8d3b-ee814870b6b3)
-
-<table>
-  <tr>
-    <td><img src="https://github.com/galbraithmedia1/SkyCast/assets/59584919/f76f98cd-0a6c-48ed-a9b2-2a131359149c" width=200 height=400></td>
-    <td><img src="https://github.com/galbraithmedia1/SkyCast/assets/59584919/2c04452d-2672-4045-bb89-2fab3b60b972" width=200 height=400></td>
-    <td><img src="https://github.com/galbraithmedia1/SkyCast/assets/59584919/2e32ad37-7298-4dde-b204-e8dc3c3bd11b" width=200 height=400></td>
-    <td><img src="https://github.com/galbraithmedia1/SkyCast/assets/59584919/d342ca77-f5eb-41fc-8923-1cdc3c082011" width=200 height=400></td>
-  </tr>
- </table>
- 
-
-
-![Skycast](https://github.com/galbraithmedia1/SkyCast/assets/59584919/5828ba4b-66a4-46ba-99dc-eba9156ce751)
-
-
+[![App Neogas](https://i.postimg.cc/2j0pmc3C/Whats-App-Image-2023-09-04-at-12-43-24-AM.jpg)](https://postimg.cc/nM9SG1vW)

@@ -9,10 +9,7 @@ const GasBalloon = ({ flujoPercentaje }) => {
     );
 
     useEffect(() => {
-        // Calcula cuántos círculos deben estar llenos en función del porcentaje
         const filledCirclesCount = Math.floor((flujoPercentaje / 100) * maxCircles);
-
-        // Actualiza el estado de gasCircles
         setGasCircles((prevCircles) => {
             return prevCircles.map((_, index) => index < filledCirclesCount);
         });

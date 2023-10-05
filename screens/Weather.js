@@ -45,8 +45,8 @@ export default Weather;
 
 const styles = StyleSheet.create({
   highlight:{
-    fontSize: 30, // Tamaño de fuente más grande
-    fontWeight: "bold", // Texto en negrita
+    fontSize: 30, 
+    fontWeight: "bold", 
     color: "#394D5C", 
   },
   circlesContainer:{
